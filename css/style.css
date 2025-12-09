@@ -17,7 +17,7 @@ img{
     max-width: 100%;
 }
 
-/レイアウト/
+/*レイアウト*/
 .wrapper{
     max-width: 1120px;
     margin: auto;
@@ -27,7 +27,7 @@ img{
     text-align: center;
 }
 
-/見出し/
+/*見出し*/
 .font-english{
     font-family: "Philosopher", sans-serif;
     font-weight: normal;
@@ -48,7 +48,7 @@ img{
 }
 
 
-/ボタン/
+/*ボタン*/
 .btn{
     display: inline-block;
     font-size: 1.5rem;
@@ -99,7 +99,7 @@ img{
 }
 
 
-/HOME/
+/*HOME*/
 .cover-home{
     background-image: url(../images/cover-home-s.webp);
 }
@@ -113,7 +113,7 @@ img{
     margin-bottom: 3;
 }
 
-/HOME/
+/*HOME*/
 .cover-home{
     background-image: url(../images/cover-home-l.webp);
 }
@@ -130,7 +130,7 @@ img{
 }
 
 
-/フッター/
+/*フッター*/
 .page-footer{
     background-image: url(../images/footer-l.webp);
     padding-top: 12rem;
@@ -184,7 +184,7 @@ img{
 /*デスクトップ版
 ------------------------*/
 @media (min-width: 800px) {
-    /見出し/
+    /*見出し*/
     .page-title{
         font-size: 5rem;
     }
@@ -192,7 +192,7 @@ img{
         font-size: 4rem;
     }
 
-    /ヘッダー/
+    /*ヘッダー*/
     .page-header{
         display: flex;
         justify-content: space-between;
