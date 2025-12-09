@@ -106,6 +106,22 @@ img {
 .cover-news{
     background-image: url(../images/cover-news-s.webp);
 }
+/*記事部分*/
+.post{
+    margin-bottom: 3rem;
+}
+.post-title {
+    font-weight: normal;
+    margin-bottom: 1.25;
+}
+.post-info {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.post-date {
+    font-size: .875rem;
+}
 /* フッター
 -------------------------------------------------- */
 .page-footer {
