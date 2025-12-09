@@ -84,6 +84,9 @@ img {
     background-position: center bottom;
     height: 800px;
 }
+.sub-cover {
+    background-image: url(../images/cover-sub.webp);
+}
 .cover-home {
     background-image: url(../images/cover-home-s.webp);
 }
