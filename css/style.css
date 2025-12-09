@@ -1,0 +1,42 @@
+.align-center {
+    text-align: center;
+}
+
+font-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
+}
+
+page-header {
+    padding-top: 5rem;
+}
+.logo {
+    width: 210px;
+}
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.main-nav a{
+    color: #432;
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+.page-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.4;
+}
+.cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 880px;
+}
+.cover-home {
+    background-image: url(../images/cover-home-s.webp);
+}
