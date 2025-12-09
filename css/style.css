@@ -85,8 +85,12 @@ img {
     height: 800px;
 }
 .sub-cover {
-    background-image: url(../images/cover-sub.webp);
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom: 4rem;
 }
+/*ホーム*/
 .cover-home {
     background-image: url(../images/cover-home-s.webp);
 }
@@ -97,6 +101,10 @@ img {
 }
 .about p {
     margin-bottom: 3rem;
+}
+/*NEWS*/
+.cover-news{
+    background-image: url(/images/cover-home-s.webp);
 }
 /* フッター
 -------------------------------------------------- */
